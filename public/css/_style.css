@@ -1,0 +1,54 @@
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+span,
+section,
+i,
+input,
+img,
+form,
+table,
+thead,
+tbody,
+th,
+tr,
+td,
+dd,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+button {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select,
+textarea {
+  /* 加了之后，h1-h6的大小变小了，自己看着用 */
+  /* font-size: 100%; */
+}
